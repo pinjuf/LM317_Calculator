@@ -1,3 +1,5 @@
+#!/use/bin/env python3
+
 import math
 
 I = float(input("[?] I: "))
