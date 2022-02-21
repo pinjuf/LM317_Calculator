@@ -15,6 +15,8 @@ def get_ratio(v):
 
 
 lowest_difference = [0, 0, math.inf]
+
+# O(n^2*i) go brrrrrrrrrr
 for R1 in standard_resistor_values_base:
     R2_opt = R1*get_ratio(Vout)
     basic_range = math.floor(math.log10(R1*R2_opt))
