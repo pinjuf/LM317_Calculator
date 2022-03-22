@@ -33,6 +33,6 @@ for R1 in standard_resistor_values_base:
 print()
 print("Ratio R1/R2: ", get_ratio(Vout))
 print()
-print("Optimized resistor values (multiple can also be used, of course):")
+print("Optimized resistor values (multiples can also be used):")
 print("R1: ", lowest_difference[0])
 print("R2: ", lowest_difference[1])
